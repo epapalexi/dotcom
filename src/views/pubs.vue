@@ -214,6 +214,31 @@ export default {
           });
         }
 
+        // Sort publications by year (most recent first). Fall back to citations
+        // and title when year is not available.
+        const extractYear = (val) => {
+          if (!val) return 0;
+          const s = String(val);
+          const m = s.match(/(19|20)\d{2}/);
+          if (m) return parseInt(m[0], 10);
+          const n = parseInt(s.replace(/[^0-9]/g, ""), 10);
+          return isNaN(n) ? 0 : n;
+        };
+
+        this.publications.sort((a, b) => {
+          const ya = extractYear(a.year || a.venue || a.title);
+          const yb = extractYear(b.year || b.venue || b.title);
+          if (ya !== yb) return yb - ya;
+          const ca =
+            parseInt((a.citations || "0").toString().replace(/\D/g, ""), 10) ||
+            0;
+          const cb =
+            parseInt((b.citations || "0").toString().replace(/\D/g, ""), 10) ||
+            0;
+          if (ca !== cb) return cb - ca;
+          return (a.title || "").localeCompare(b.title || "");
+        });
+
         this.splitPublications();
         this.loading = false;
       } catch (err) {
