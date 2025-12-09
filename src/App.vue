@@ -11,7 +11,7 @@ const links = [
     label: "Work",
     children: [
       // { href: '/art/things', label: 'Things' },
-      { href: "/Work/publications", label: "Publications" },
+      { href: "/Work/publications", label: "Selected Publications" },
       { href: "/Work/resume", label: "Resume" },
     ],
   },

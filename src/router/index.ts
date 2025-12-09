@@ -12,7 +12,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/Work/publications",
-    name: "Publications",
+    name: "Selected Publications",
     component: () => import("../views/pubs.vue"),
   },
   {
