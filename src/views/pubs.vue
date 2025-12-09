@@ -316,12 +316,4 @@ export default {
 .publications-list {
   max-width: 900px;
 }
-
-.publication-item:hover {
-  background-color: #f9fafb;
-  padding: 1rem;
-  margin: -1rem;
-  border-radius: 0.5rem;
-  transition: all 0.2s;
-}
 </style>
