@@ -1,30 +1,34 @@
-import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
+import {
+  createRouter,
+  createWebHistory,
+  type RouteRecordRaw,
+} from "vue-router";
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
-    name: 'About',
-    component: () => import('../views/about.vue'),
+    path: "/",
+    name: "About",
+    component: () => import("../views/about.vue"),
   },
   {
-    path: '/art/paintings',
-    name: 'Paintings',
-    component: () => import('../views/paintings/index.vue'),
+    path: "/Work/publications",
+    name: "Publications",
+    component: () => import("../views/pubs.vue"),
   },
   {
-    path: '/art/commissions',
-    name: 'Commissions',
-    component: () => import('../views/commissions.vue'),
+    path: "/Work/resume",
+    name: "Resume",
+    component: () => import("../views/resume.vue"),
   },
   {
-    path: '/contact',
-    name: 'Contact',
-    component: () => import('../views/contact.vue'),
+    path: "/contact",
+    name: "Contact",
+    component: () => import("../views/contact.vue"),
   },
-    {
-    path: '/recipes',
-    name: 'Recipes',
-    component: () => import('../views/recipes/index.vue'),
+  {
+    path: "/recipes",
+    name: "Recipes",
+    component: () => import("../views/recipes/index.vue"),
   },
   // Add more routes here
 ];
