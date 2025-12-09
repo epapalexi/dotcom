@@ -84,16 +84,136 @@ export default {
   methods: {
     async fetchPublications() {
       try {
-        // Using SerpAPI - requires API key
-        // Alternative: use a CORS proxy to fetch Scholar page
+        // Use a CORS proxy to fetch Google Scholar profile pages, paging through
+        // results until no more publications are returned. Be careful of rate
+        // limits; we include a safety maxPages to avoid infinite loops.
         const proxyUrl = "https://api.allorigins.win/raw?url=";
-        const scholarUrl = `https://scholar.google.com/citations?user=${this.scholarId}&hl=en`;
+        const pageSize = 100; // fetch up to 100 rows per page to reduce requests
+        let cstart = 0;
+        const maxPages = 50; // safety cap (50 * 100 = 5000 entries)
+        let allPubs = [];
 
-        const response = await fetch(proxyUrl + encodeURIComponent(scholarUrl));
-        const html = await response.text();
+        for (let page = 0; page < maxPages; page++) {
+          const scholarUrl = `https://scholar.google.com/citations?user=${this.scholarId}&hl=en&cstart=${cstart}&pagesize=${pageSize}`;
 
-        // Parse publications from HTML
-        this.publications = this.parseScholarHTML(html);
+          const response = await fetch(
+            proxyUrl + encodeURIComponent(scholarUrl)
+          );
+          if (!response.ok) {
+            throw new Error(`Proxy fetch failed: ${response.status}`);
+          }
+
+          const html = await response.text();
+          const pubs = this.parseScholarHTML(html);
+
+          if (!pubs || pubs.length === 0) {
+            break;
+          }
+
+          allPubs = allPubs.concat(pubs);
+
+          // If fewer than pageSize were returned, we've reached the last page
+          if (pubs.length < pageSize) {
+            break;
+          }
+
+          cstart += pageSize;
+        }
+
+        // Deduplicate publications (by title + year)
+        const seen = new Set();
+        this.publications = allPubs.filter((p) => {
+          const key = `${(p.title || "").toLowerCase()}|${p.year || ""}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+
+        // Remove excluded venues (case-insensitive substring match)
+        const excludeVenues = [
+          "journal for immunotherapy of cancer",
+          "the journal of immunology",
+          "cancer research",
+          "abstract",
+          "new york university",
+        ];
+
+        this.publications = this.publications.filter((p) => {
+          const venue = (p.venue || "").toLowerCase();
+          // Keep publication if none of the exclude terms appear in the venue
+          return !excludeVenues.some((ex) => venue.includes(ex));
+        });
+
+        // Exclude specific titles (case-insensitive substring match)
+        const excludeTitles = [
+          "the genetic control of fat body development and function in drosophila melanogaster",
+        ];
+
+        this.publications = this.publications.filter((p) => {
+          const title = (p.title || "").toLowerCase();
+          return !excludeTitles.some((ex) => title.includes(ex));
+        });
+        // If we couldn't fetch any publications via the CORS proxy, try
+        // SerpAPI as a fallback (requires a Vite env var `VITE_SERPAPI_KEY`).
+        if (
+          (!this.publications || this.publications.length === 0) &&
+          typeof import.meta !== "undefined" &&
+          import.meta.env &&
+          import.meta.env.VITE_SERPAPI_KEY
+        ) {
+          const serpKey = import.meta.env.VITE_SERPAPI_KEY;
+          let start = 0;
+          const serpPageSize = 10; // SerpAPI returns ~10 articles per request
+          const serpMaxPages = 20;
+          let serpAll = [];
+
+          for (let i = 0; i < serpMaxPages; i++) {
+            const serpUrl = `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${this.scholarId}&api_key=${serpKey}&start=${start}`;
+            const resp = await fetch(serpUrl);
+            if (!resp.ok) break;
+            const json = await resp.json();
+            const articles = json.articles || json.results || [];
+            if (!articles.length) break;
+
+            // Map SerpAPI article shape to our publication shape
+            articles.forEach((a) => {
+              serpAll.push({
+                title: a.title || "",
+                link: a.link || a.source || null,
+                authors:
+                  a.authors ||
+                  (a.publication_info && a.publication_info.authors) ||
+                  "",
+                venue:
+                  (a.publication_info && a.publication_info.name) ||
+                  a.publication ||
+                  "",
+                year:
+                  (a.publication_info && a.publication_info.year) ||
+                  a.year ||
+                  "",
+                citations: a.cited_by
+                  ? String(a.cited_by.value || a.cited_by)
+                  : a.citations
+                  ? String(a.citations)
+                  : "0",
+              });
+            });
+
+            start += serpPageSize;
+          }
+
+          // Merge serpAll into publications, deduplicate
+          const merged = (this.publications || []).concat(serpAll);
+          const seen2 = new Set();
+          this.publications = merged.filter((p) => {
+            const key = `${(p.title || "").toLowerCase()}|${p.year || ""}`;
+            if (seen2.has(key)) return false;
+            seen2.add(key);
+            return true;
+          });
+        }
+
         this.splitPublications();
         this.loading = false;
       } catch (err) {
