@@ -46,7 +46,10 @@
                 </a>
                 <span v-else>{{ pub.title }}</span>
               </h3>
-              <p class="text-sm text-gray-700 mb-1">{{ pub.authors }}</p>
+              <p
+                class="text-sm text-gray-700 mb-1"
+                v-html="formatAuthors(pub)"
+              ></p>
               <p class="text-sm text-gray-600 mb-2">
                 <span v-if="pub.venue">{{ pub.venue }}, </span>
                 <span v-if="pub.year">{{ pub.year }}</span>
@@ -281,6 +284,26 @@ export default {
       });
 
       return publications;
+    },
+    // Escape HTML and bold E Papalexi in the authors string
+    formatAuthors(pub) {
+      const authors = pub && pub.authors ? String(pub.authors) : "";
+      const escapeHtml = (s) =>
+        s
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+
+      const escaped = escapeHtml(authors);
+      // Match "E Papalexi" with or without the period after E, case-insensitive
+      const regex = /(\bE\.?\s*Papalexi\b)/gi;
+      const replaced = escaped.replace(
+        regex,
+        '<strong class="font-semibold">$1</strong>'
+      );
+      return replaced;
     },
     splitPublications() {
       this.authoredPublications = [];
