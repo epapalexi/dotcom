@@ -3,7 +3,7 @@
     class="pr-5 md:pr-20 pl-5 md:pl-20 pb-56 md:pb-10 pt-5 md:pt-20 h-screen md:h-screen overflow-y-auto"
   >
     <div>
-      <h1 class="text-3xl mb-8">Selected Publications</h1>
+      <h1 class="text-3xl font-semibold mb-8">Selected Publications</h1>
       <div class="mb-6 text-sm">
         <a
           href="https://scholar.google.com/citations?user=OIUo3mUAAAAJ&hl=en"
@@ -33,7 +33,7 @@
               :key="'a-' + index"
               class="publication-item pb-6 border-b border-gray-200 last:border-0"
             >
-              <h3 class="text-lg font-semibold mb-2">
+              <h3 class="text-2xl mb-4">
                 <a
                   v-if="pub.link"
                   :href="pub.link"

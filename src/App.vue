@@ -85,8 +85,8 @@ onUnmounted(() => {
       <div class="flex items-start justify-between px-2 py-1 h-[40px]">
         <a href="/" @click.prevent="$router.push('/')">
           <img
-            src="./assets/logo_mk.svg"
-            alt="Morteza Karimi Logo"
+            src="./assets/logo_EP.svg"
+            alt="Efthymia Papalexi Logo"
             class="h-8"
           />
         </a>
