@@ -24,8 +24,6 @@
 
       <div v-else class="space-y-8">
         <div>
-          <h2 class="text-2xl mb-4">Selected Publications</h2>
-
           <div
             v-if="authoredPublications.length"
             class="publications-list space-y-6"

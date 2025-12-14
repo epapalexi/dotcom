@@ -9,12 +9,12 @@
       <h2 class="text-2xl mb-4">Education</h2>
       <ul class="list-disc pl-6 space-y-2 text-sm text-gray-700">
         <li>
-          <strong>PhD</strong> — Add institution and year (e.g., 2015–2019).
-          Replace with your degree details.
+          <strong>PhD</strong> — New York University 2015-2020. Replace with
+          your degree details.
         </li>
         <li>
-          <strong>BSc / MSc</strong> — Add institution and year (e.g.,
-          2010–2014). Replace with your degree details.
+          <strong>BA</strong> — Mount Holyoke College 2009-2013. Replace with
+          your degree details.
         </li>
       </ul>
     </section>
