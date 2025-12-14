@@ -1,0 +1,290 @@
+[
+  {
+    "title": "Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:IWHjjKOFINEC",
+    "authors": "J Zhang, AA Ubas, R de Borja, V Svensson, N Thomas, N Thakar, I Lai, ...",
+    "venue": "BioRxiv, 2025.02. 20.639398, 2025",
+    "year": "2025",
+    "citations": "43"
+  },
+  {
+    "title": "Systematic reconstruction of molecular pathway signatures using scalable single-cell perturbation screens",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:4DMP91E08xMC",
+    "authors": "L Jiang, C Dalgarno, E Papalexi, I Mascio, HH Wessels, H Yun, ...",
+    "venue": "Nature Cell Biology, 1-13, 2025",
+    "year": "2025",
+    "citations": "33"
+  },
+  {
+    "title": "Efficient combinatorial targeting of RNA transcripts in single cells with Cas13 RNA Perturb-seq",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:Zph67rFs4hoC",
+    "authors": "HH Wessels, A Méndez-Mancilla, Y Hao, E Papalexi, WM Mauck III, L Lu, ...",
+    "venue": "Nature methods 20 (1), 86-94, 2023",
+    "year": "2023",
+    "citations": "80"
+  },
+  {
+    "title": "High sensitivity single cell RNA sequencing with split pool barcoding",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:ULOm3_A8WrAC",
+    "authors": "V Tran, E Papalexi, S Schroeder, G Kim, A Sapre, J Pangallo, A Sova, ...",
+    "venue": "Biorxiv, 2022.08. 27.505512, 2022",
+    "year": "2022",
+    "citations": "33"
+  },
+  {
+    "title": "Integrated analysis of multimodal single-cell data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:9yKSN-GCB0IC",
+    "authors": "Y Hao, S Hao, E Andersen-Nissen, WM Mauck, S Zheng, A Butler, MJ Lee, ...",
+    "venue": "Cell 184 (13), 3573-3587. e29, 2021",
+    "year": "2021",
+    "citations": "13672"
+  },
+  {
+    "title": "Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:8k81kl-MbHgC",
+    "authors": "EP Mimitou, CA Lareau, KY Chen, AL Zorzetto-Fernandes, Y Hao, ...",
+    "venue": "Nature biotechnology 39 (10), 1246-1258, 2021",
+    "year": "2021",
+    "citations": "474"
+  },
+  {
+    "title": "Characterizing the molecular regulation of inhibitory immune checkpoints with multimodal single-cell screens",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:3fE2CSJIrl8C",
+    "authors": "E Papalexi, EP Mimitou, AW Butler, S Foster, B Bracken, WM Mauck III, ...",
+    "venue": "Nature genetics 53 (3), 322-331, 2021",
+    "year": "2021",
+    "citations": "218"
+  },
+  {
+    "title": "A latent subset of human hematopoietic stem cells resists regenerative stress to preserve stemness",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:2osOgNQ5qMEC",
+    "authors": "KB Kaufmann, AGX Zeng, E Coyaud, L Garcia-Prat, E Papalexi, ...",
+    "venue": "Nature immunology 22 (6), 723-734, 2021",
+    "year": "2021",
+    "citations": "71"
+  },
+  {
+    "title": "A distinct subset of human blood stem cells resists regenerative stress to preserve stemness",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:u5HHmVD_uO8C",
+    "authors": "KB Kaufmann, AGX Zeng, E Coyaud, L Garcia-Prat, E Papalexi, E Laurent, ...",
+    "venue": "",
+    "year": "2020",
+    "citations": "1"
+  },
+  {
+    "title": "3017–A DISTINCT SUBSET OF LATENT LONG-TERM HUMAN HEMATOPOIETIC STEM CELLS RESISTS REGENERATIVE STRESS TO PRESERVES STEMNESS",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:Y0pCki6q_DkC",
+    "authors": "K Kaufmann, A Zeng, E Coyaud, L Garcia-Prat, E Papalexi, E Laurent, ...",
+    "venue": "Experimental Hematology 88, S43, 2020",
+    "year": "2020",
+    "citations": ""
+  },
+  {
+    "title": "Divergent Levels of CD112 and INKA1 Define a Subset of Human Hematopoietic Stem Cells That Resists Regenerative Stress to Preserve Stemness",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:ufrVoPGSRksC",
+    "authors": "KB Kaufmann, AGX Zeng, E Coyaud, LG Prat, E Papalexi, EMN Laurent, ...",
+    "venue": "Blood 136, 5, 2020",
+    "year": "2020",
+    "citations": ""
+  },
+  {
+    "title": "Comprehensive integration of single-cell data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:eQOLeE2rZwMC",
+    "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck, ...",
+    "venue": "cell 177 (7), 1888-1902. e21, 2019",
+    "year": "2019",
+    "citations": "14953"
+  },
+  {
+    "title": "Multiplexed detection of proteins, transcriptomes, clonotypes and CRISPR perturbations in single cells",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:UeHWp8X0CEIC",
+    "authors": "EP Mimitou, A Cheng, A Montalbano, S Hao, M Stoeckius, M Legut, ...",
+    "venue": "Nature methods 16 (5), 409-412, 2019",
+    "year": "2019",
+    "citations": "545"
+  },
+  {
+    "title": "3rd",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:mB3voiENLucC",
+    "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck",
+    "venue": "Hao, Y., Stoeckius, M., Smibert, P. & Satija, 1888-1902, 2019",
+    "year": "2019",
+    "citations": "510"
+  },
+  {
+    "title": "Mauck 3rd",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:Wp0gIr-vW9MC",
+    "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi",
+    "venue": "WM, Hao, Y., Stoeckius, M., Smibert, P., Satija, 1888-1902, 2019",
+    "year": "2019",
+    "citations": "82"
+  },
+  {
+    "title": "Hao 26 Y, Stoeckius M, Smibert P, Satija R. Comprehensive Integration of Single-Cell 27 Data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:r0BpntZqJG4C",
+    "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck 3rd",
+    "venue": "Cell 177, 1888-902, 2019",
+    "year": "2019",
+    "citations": "50"
+  },
+  {
+    "title": "Stoeckius 614 M, Smibert P, Satija R. Comprehensive Integration of Single-Cell Data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:hFOr9nPyWt4C",
+    "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck, ...",
+    "venue": "Cell 615, 177, 2019",
+    "year": "2019",
+    "citations": "15"
+  },
+  {
+    "title": "Integrating single-cell transcriptomic data across different conditions, technologies, and species",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:zYLM7Y9cAGgC",
+    "authors": "A Butler, P Hoffman, P Smibert, E Papalexi, R Satija",
+    "venue": "Nature biotechnology 36 (5), 411-420, 2018",
+    "year": "2018",
+    "citations": "12063"
+  },
+  {
+    "title": "Single-cell RNA sequencing to explore immune cell heterogeneity",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:UebtZRa9Y70C",
+    "authors": "E Papalexi, R Satija",
+    "venue": "Nature Reviews Immunology 18 (1), 35-45, 2018",
+    "year": "2018",
+    "citations": "1785"
+  },
+  {
+    "title": "Dual targeting of oncogenic activation and inflammatory signaling increases therapeutic efficacy in myeloproliferative neoplasms",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:Se3iqnhoufwC",
+    "authors": "M Kleppe, R Koche, L Zou, P van Galen, CE Hill, L Dong, S De Groote, ...",
+    "venue": "Cancer cell 33 (1), 29-43. e7, 2018",
+    "year": "2018",
+    "citations": "332"
+  },
+  {
+    "title": "Molecular transitions in early progenitors during human cord blood hematopoiesis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:YsMSGLbcyi4C",
+    "authors": "S Zheng, E Papalexi, A Butler, W Stephenson, R Satija",
+    "venue": "Molecular systems biology 14 (3), e8041, 2018",
+    "year": "2018",
+    "citations": "177"
+  },
+  {
+    "title": "Kinetics of adult hematopoietic stem cell differentiation in vivo",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:d1gkVwhDpl0C",
+    "authors": "S Upadhaya, CM Sawai, E Papalexi, A Rashidfarrokhi, G Jang, ...",
+    "venue": "Journal of Experimental Medicine 215 (11), 2815-2832, 2018",
+    "year": "2018",
+    "citations": "97"
+  },
+  {
+    "title": "JAK2/IDH-mutant–driven myeloproliferative neoplasm is sensitive to combined targeted inhibition",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:u-x6o8ySG0sC",
+    "authors": "AS McKenney, AN Lau, AVH Somasundara, B Spitzer, AM Intlekofer, ...",
+    "venue": "The Journal of clinical investigation 128 (2), 789-804, 2018",
+    "year": "2018",
+    "citations": "86"
+  },
+  {
+    "title": "Jak1 integrates cytokine sensing to regulate hematopoietic stem cell function and stress hematopoiesis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:0EnyYjriUFMC",
+    "authors": "M Kleppe, MH Spitzer, S Li, CE Hill, L Dong, E Papalexi, S De Groote, ...",
+    "venue": "Cell stem cell 21 (4), 489-501. e7, 2017",
+    "year": "2017",
+    "citations": "90"
+  },
+  {
+    "title": "Reply to \"Uveal melanoma cells are resistant to EZH2 inhibition regardless of BAP1 status\"",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:WF5omc3nYNoC",
+    "authors": "LM LaFave, W Béguelin, R Koche, M Teater, B Spitzer, A Chramiec, ...",
+    "venue": "Nature medicine 22 (6), 578-579, 2016",
+    "year": "2016",
+    "citations": "12"
+  },
+  {
+    "title": "JAK1 as a convergent regulator of hematopoietic stem cell function and stress hematopoiesis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:qjMakFHDy7sC",
+    "authors": "M Kleppe, MH Spitzer, S Li, L Dong, E Papalexi, C Hill, S De Groote, ...",
+    "venue": "Blood 128 (22), 722, 2016",
+    "year": "2016",
+    "citations": "4"
+  },
+  {
+    "title": "Loss of BAP1 function leads to EZH2-dependent transformation",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:_FxGoFyzp5QC",
+    "authors": "LM LaFave, W Béguelin, R Koche, M Teater, B Spitzer, A Chramiec, ...",
+    "venue": "Nature medicine 21 (11), 1344-1349, 2015",
+    "year": "2015",
+    "citations": "416"
+  },
+  {
+    "title": "JAK–STAT pathway activation in malignant and nonmalignant cells contributes to MPN pathogenesis and therapeutic response",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:hqOjcs7Dif8C",
+    "authors": "M Kleppe, M Kwak, P Koppikar, M Riester, M Keller, L Bastian, T Hricik, ...",
+    "venue": "Cancer discovery 5 (3), 316-331, 2015",
+    "year": "2015",
+    "citations": "356"
+  },
+  {
+    "title": "Dose-dependent role of the cohesin complex in normal and malignant hematopoiesis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:5nxA0vEk-isC",
+    "authors": "AD Viny, CJ Ott, B Spitzer, M Rivas, C Meydan, E Papalexi, D Yelin, ...",
+    "venue": "Journal of Experimental Medicine 212 (11), 1819-1832, 2015",
+    "year": "2015",
+    "citations": "176"
+  },
+  {
+    "title": "Tumor-specific HSP90 inhibition as a therapeutic approach in JAK-mutant acute lymphoblastic leukemias",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:roLk4NBRz8UC",
+    "authors": "N Kucine, S Marubayashi, N Bhagwat, E Papalexi, P Koppikar, ...",
+    "venue": "Blood, The Journal of the American Society of Hematology 126 (22), 2479-2483, 2015",
+    "year": "2015",
+    "citations": "47"
+  },
+  {
+    "title": "Lysine-specific histone demethylase, LSD1,(KDM1A) as a novel therapeutic target in myeloproliferative neoplasms",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:Tyk-4Ss8FVUC",
+    "authors": "M Kleppe, K Shank, P Efthymia, H Riehnhoff, RL Levine",
+    "venue": "Blood 126 (23), 601, 2015",
+    "year": "2015",
+    "citations": "14"
+  },
+  {
+    "title": "BAP1 loss results in EZH2-dependent transformation in myelodysplastic syndromes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:W7OEmFMy1HYC",
+    "authors": "LM LaFave, W Béguelin, R Koche, M Teater, E Papalexi, B Spitzer, ...",
+    "venue": "Blood, The Journal of the American Society of Hematology 126 (23), 713-713, 2015",
+    "year": "2015",
+    "citations": "1"
+  },
+  {
+    "title": "Blood First Edition Paper, prepublished online October 6, 2015; DOI 10.1182/blood-2015-03-635821",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:LkGwnXOMwfcC",
+    "authors": "N Kucine, S Marubayashi, N Bhagwat, E Papalexi, P Koppikar, MS Martin, ...",
+    "venue": "",
+    "year": "2015",
+    "citations": ""
+  },
+  {
+    "title": "with Collaborators",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:HDshCWvjkbEC",
+    "authors": "A Butler, S Choudhary, D Collins, C Darby, J Farrell, I Grabski, ...",
+    "venue": "The Human Course of Life in Its Goal Aspects (in preparation), 2010",
+    "year": "2010",
+    "citations": "2"
+  },
+  {
+    "title": "3RD, HAO Y, STOECKIUS M, SMIBERT P & SATIJA R 2019",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:TQgYirikUcIC",
+    "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck",
+    "venue": "Comprehensive integration of single-cell data. Cell 177, 1888-1902, 0",
+    "year": "",
+    "citations": "70"
+  },
+  {
+    "title": "Expanding the CITE-seq tool-kit: Detection of proteins, transcriptomes, clonotypes and CRISPR perturbations with multiplexing, in a single assay",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:IjCSPb-OGe4C",
+    "authors": "E Mimitou, A Cheng, A Montalbano, S Hao, M Stoeckius, M Legut, ...",
+    "venue": "",
+    "year": "",
+    "citations": ""
+  }
+]
