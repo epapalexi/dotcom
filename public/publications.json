@@ -5,7 +5,7 @@
     "authors": "J Zhang, AA Ubas, R de Borja, V Svensson, N Thomas, N Thakar, I Lai, ...",
     "venue": "BioRxiv, 2025.02. 20.639398, 2025",
     "year": "2025",
-    "citations": "43"
+    "citations": "47"
   },
   {
     "title": "Systematic reconstruction of molecular pathway signatures using scalable single-cell perturbation screens",
@@ -13,7 +13,15 @@
     "authors": "L Jiang, C Dalgarno, E Papalexi, I Mascio, HH Wessels, H Yun, ...",
     "venue": "Nature Cell Biology, 1-13, 2025",
     "year": "2025",
-    "citations": "33"
+    "citations": "36"
+  },
+  {
+    "title": "A single-cell cytokine dictionary of human peripheral blood",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OIUo3mUAAAAJ&pagesize=100&citation_for_view=OIUo3mUAAAAJ:bEWYMUwI8FkC",
+    "authors": "L Oesinghaus, S Becker, L Vornholz, E Papalexi, J Pangallo, AA Moinfar, ...",
+    "venue": "bioRxiv, 2025.12. 12.693897, 2025",
+    "year": "2025",
+    "citations": ""
   },
   {
     "title": "Efficient combinatorial targeting of RNA transcripts in single cells with Cas13 RNA Perturb-seq",
@@ -21,7 +29,7 @@
     "authors": "HH Wessels, A Méndez-Mancilla, Y Hao, E Papalexi, WM Mauck III, L Lu, ...",
     "venue": "Nature methods 20 (1), 86-94, 2023",
     "year": "2023",
-    "citations": "80"
+    "citations": "82"
   },
   {
     "title": "High sensitivity single cell RNA sequencing with split pool barcoding",
@@ -29,7 +37,7 @@
     "authors": "V Tran, E Papalexi, S Schroeder, G Kim, A Sapre, J Pangallo, A Sova, ...",
     "venue": "Biorxiv, 2022.08. 27.505512, 2022",
     "year": "2022",
-    "citations": "33"
+    "citations": "34"
   },
   {
     "title": "Integrated analysis of multimodal single-cell data",
@@ -37,7 +45,7 @@
     "authors": "Y Hao, S Hao, E Andersen-Nissen, WM Mauck, S Zheng, A Butler, MJ Lee, ...",
     "venue": "Cell 184 (13), 3573-3587. e29, 2021",
     "year": "2021",
-    "citations": "13672"
+    "citations": "13897"
   },
   {
     "title": "Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells",
@@ -45,7 +53,7 @@
     "authors": "EP Mimitou, CA Lareau, KY Chen, AL Zorzetto-Fernandes, Y Hao, ...",
     "venue": "Nature biotechnology 39 (10), 1246-1258, 2021",
     "year": "2021",
-    "citations": "474"
+    "citations": "479"
   },
   {
     "title": "Characterizing the molecular regulation of inhibitory immune checkpoints with multimodal single-cell screens",
@@ -53,7 +61,7 @@
     "authors": "E Papalexi, EP Mimitou, AW Butler, S Foster, B Bracken, WM Mauck III, ...",
     "venue": "Nature genetics 53 (3), 322-331, 2021",
     "year": "2021",
-    "citations": "218"
+    "citations": "220"
   },
   {
     "title": "A latent subset of human hematopoietic stem cells resists regenerative stress to preserve stemness",
@@ -61,7 +69,7 @@
     "authors": "KB Kaufmann, AGX Zeng, E Coyaud, L Garcia-Prat, E Papalexi, ...",
     "venue": "Nature immunology 22 (6), 723-734, 2021",
     "year": "2021",
-    "citations": "71"
+    "citations": "72"
   },
   {
     "title": "A distinct subset of human blood stem cells resists regenerative stress to preserve stemness",
@@ -93,7 +101,7 @@
     "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck, ...",
     "venue": "cell 177 (7), 1888-1902. e21, 2019",
     "year": "2019",
-    "citations": "14953"
+    "citations": "15078"
   },
   {
     "title": "Multiplexed detection of proteins, transcriptomes, clonotypes and CRISPR perturbations in single cells",
@@ -101,7 +109,7 @@
     "authors": "EP Mimitou, A Cheng, A Montalbano, S Hao, M Stoeckius, M Legut, ...",
     "venue": "Nature methods 16 (5), 409-412, 2019",
     "year": "2019",
-    "citations": "545"
+    "citations": "549"
   },
   {
     "title": "3rd",
@@ -109,7 +117,7 @@
     "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck",
     "venue": "Hao, Y., Stoeckius, M., Smibert, P. & Satija, 1888-1902, 2019",
     "year": "2019",
-    "citations": "510"
+    "citations": "514"
   },
   {
     "title": "Mauck 3rd",
@@ -117,7 +125,7 @@
     "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi",
     "venue": "WM, Hao, Y., Stoeckius, M., Smibert, P., Satija, 1888-1902, 2019",
     "year": "2019",
-    "citations": "82"
+    "citations": "85"
   },
   {
     "title": "Hao 26 Y, Stoeckius M, Smibert P, Satija R. Comprehensive Integration of Single-Cell 27 Data",
@@ -125,7 +133,7 @@
     "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck 3rd",
     "venue": "Cell 177, 1888-902, 2019",
     "year": "2019",
-    "citations": "50"
+    "citations": "51"
   },
   {
     "title": "Stoeckius 614 M, Smibert P, Satija R. Comprehensive Integration of Single-Cell Data",
@@ -133,7 +141,7 @@
     "authors": "T Stuart, A Butler, P Hoffman, C Hafemeister, E Papalexi, WM Mauck, ...",
     "venue": "Cell 615, 177, 2019",
     "year": "2019",
-    "citations": "15"
+    "citations": "16"
   },
   {
     "title": "Integrating single-cell transcriptomic data across different conditions, technologies, and species",
@@ -141,7 +149,7 @@
     "authors": "A Butler, P Hoffman, P Smibert, E Papalexi, R Satija",
     "venue": "Nature biotechnology 36 (5), 411-420, 2018",
     "year": "2018",
-    "citations": "12063"
+    "citations": "12157"
   },
   {
     "title": "Single-cell RNA sequencing to explore immune cell heterogeneity",
@@ -149,7 +157,7 @@
     "authors": "E Papalexi, R Satija",
     "venue": "Nature Reviews Immunology 18 (1), 35-45, 2018",
     "year": "2018",
-    "citations": "1785"
+    "citations": "1788"
   },
   {
     "title": "Dual targeting of oncogenic activation and inflammatory signaling increases therapeutic efficacy in myeloproliferative neoplasms",
@@ -157,7 +165,7 @@
     "authors": "M Kleppe, R Koche, L Zou, P van Galen, CE Hill, L Dong, S De Groote, ...",
     "venue": "Cancer cell 33 (1), 29-43. e7, 2018",
     "year": "2018",
-    "citations": "332"
+    "citations": "334"
   },
   {
     "title": "Molecular transitions in early progenitors during human cord blood hematopoiesis",
@@ -173,7 +181,7 @@
     "authors": "S Upadhaya, CM Sawai, E Papalexi, A Rashidfarrokhi, G Jang, ...",
     "venue": "Journal of Experimental Medicine 215 (11), 2815-2832, 2018",
     "year": "2018",
-    "citations": "97"
+    "citations": "98"
   },
   {
     "title": "JAK2/IDH-mutant–driven myeloproliferative neoplasm is sensitive to combined targeted inhibition",
@@ -213,7 +221,7 @@
     "authors": "LM LaFave, W Béguelin, R Koche, M Teater, B Spitzer, A Chramiec, ...",
     "venue": "Nature medicine 21 (11), 1344-1349, 2015",
     "year": "2015",
-    "citations": "416"
+    "citations": "417"
   },
   {
     "title": "JAK–STAT pathway activation in malignant and nonmalignant cells contributes to MPN pathogenesis and therapeutic response",
@@ -221,7 +229,7 @@
     "authors": "M Kleppe, M Kwak, P Koppikar, M Riester, M Keller, L Bastian, T Hricik, ...",
     "venue": "Cancer discovery 5 (3), 316-331, 2015",
     "year": "2015",
-    "citations": "356"
+    "citations": "359"
   },
   {
     "title": "Dose-dependent role of the cohesin complex in normal and malignant hematopoiesis",
@@ -229,7 +237,7 @@
     "authors": "AD Viny, CJ Ott, B Spitzer, M Rivas, C Meydan, E Papalexi, D Yelin, ...",
     "venue": "Journal of Experimental Medicine 212 (11), 1819-1832, 2015",
     "year": "2015",
-    "citations": "176"
+    "citations": "177"
   },
   {
     "title": "Tumor-specific HSP90 inhibition as a therapeutic approach in JAK-mutant acute lymphoblastic leukemias",

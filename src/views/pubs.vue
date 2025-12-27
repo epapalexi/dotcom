@@ -76,7 +76,7 @@ export default {
       otherPublications: [],
       loading: true,
       error: null,
-      };
+    };
   },
   mounted() {
     this.fetchPublicationsFromJson();
@@ -84,15 +84,17 @@ export default {
   methods: {
     async fetchPublicationsFromJson() {
       try {
-        const resp = await fetch('/publications.json');
-        if (!resp.ok) throw new Error(`Failed to load publications: ${resp.status}`);
+        const resp = await fetch("/publications.json");
+        if (!resp.ok)
+          throw new Error(`Failed to load publications: ${resp.status}`);
         const data = await resp.json();
         this.publications = data || [];
         this.splitPublications();
         this.loading = false;
       } catch (err) {
-        console.error('Error loading publications JSON:', err);
-        this.error = 'Unable to load publications. Please visit Google Scholar link above.';
+        console.error("Error loading publications JSON:", err);
+        this.error =
+          "Unable to load publications. Please visit Google Scholar link above.";
         this.loading = false;
       }
     },
@@ -133,7 +135,15 @@ export default {
         const parts = authors.split(",").map((s) => s.trim());
         const firstThree = parts.slice(0, 3);
 
-        const isAuthored = firstThree.some((a) => matchRegex.test(a));
+        // Special-case: include a known publication even if E Papalexi isn't in the top 3 authors
+        const specialTitle =
+          "A single-cell cytokine dictionary of human peripheral blood";
+        const isSpecial =
+          pub.title &&
+          pub.title.trim().toLowerCase() === specialTitle.toLowerCase();
+
+        const isAuthored =
+          firstThree.some((a) => matchRegex.test(a)) || isSpecial;
 
         if (isAuthored) {
           this.authoredPublications.push(pub);
