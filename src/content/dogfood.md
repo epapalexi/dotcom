@@ -1,0 +1,9 @@
+# Dog Food
+
+Original PDF: [Download](/dogfood.pdf)
+
+Sky's food - Το φαγητό της Σκάι Ingredients - Υλικά 1. One pound ground turkey - μισό κιλό κιμά από γαλοπούλα 🦃 2. One pack of chicken liver - ένα πακέτο συκώτι κοτόπουλο 🐔 3. Half a pack of baby carrots - μισό πακέτο μικρά καρότα 🥕 4. Half a pack of frozen cut bell peppers - μισό πακέτο κομμένες πιπεριές κατεψυγμένες 🫑 5. One cup of oats - μια κούπα βρώμη 6. One sweet potato/potato cut in cubes - μια γλυκοπατάτα κομμένη σε κύβους 🍠 🥔 7. Two eggs - δύο αβγά 🥚 8. Half a pack of frozen blueberries - ένα πακέτο κατεψυγμένα μύρτιλα 🫐 9. One teaspoon of turmeric - ένα κουταλάκι του γλυκού κουρκουμα 10. One teaspoon of cinnamon - ένα κουταλάκι του γλυκού σκόνη κανέλα 11. A pinch of black pepper powder - λίγο τριμμένο μαύρο πιπέρι 12. Two teaspoons of eggshell powder - δύο κουταλιές του γλυκού σκόνη από τσόφλια αυγου 13. Four scoops of daily support powder 14. Half a pack of frozen spinach - ένα πακέτο κατεψυγμένο σπανάκι 15. 500-750ml of water - 500-750ml νερό 💧 Instructions - εκτέλεση Add all ingredients except the eggs into the pot. Boil for 20-30 minutes until it’s cooked. Make sure to mix every 5-10 minutes so the food doesn’t stick to the pot. Once cooked, add two eggs and stir to combine. Give a spoon of food to sky to try and let it cool at room temp before putting it in the fridge. Ρίχνουμε όλα τα υλικά εκτός άπο τα αυγά μέσα στην κατσαρόλα και βράζουμε για 20-30λέπτα. Ανακατεύουμε κάθε 5-10λέπτα για να μην κολλήσει. Όταν το φαγητό έχει γίνει, σπαμε δύο αβγά
+
+
+
+και ανακατεύουμε να αναμειχθούν καλά. Δίνουμε στη Σκαι να δοκιμάσει και αφήνουμε να κρυώσει πριν το βάλουμε στο ψυγείο.
