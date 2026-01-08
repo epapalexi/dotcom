@@ -11,12 +11,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("../views/about.vue"),
   },
   {
-    path: "/Work/publications",
+    path: "/publications",
     name: "Selected Publications",
     component: () => import("../views/pubs.vue"),
   },
   {
-    path: "/Work/resume",
+    path: "/resume",
     name: "Resume",
     component: () => import("../views/resume.vue"),
   },

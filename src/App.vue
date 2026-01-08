@@ -6,15 +6,8 @@ const headerHeight = ref("40px");
 
 const links = [
   { href: "/", label: "About" },
-  {
-    href: "#",
-    label: "Work",
-    children: [
-      // { href: '/art/things', label: 'Things' },
-      { href: "/Work/publications", label: "Selected Publications" },
-      { href: "/Work/resume", label: "Resume" },
-    ],
-  },
+  { href: "/publications", label: "Selected Publications" },
+  { href: "/resume", label: "Resume" },
   // { href: '#', label: 'Recipes', children: [
   //   { href: '#', label: 'Breakfast' },
   //   { href: '#', label: 'Lunch' },
