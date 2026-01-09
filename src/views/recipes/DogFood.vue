@@ -5,7 +5,7 @@
         <h1 class="text-2xl font-bold" v-if="!showGreek">Sky's food</h1>
         <h1 class="text-2xl font-bold" v-else>Το φαγητό της Σκάι</h1>
         <p class="text-sm text-gray-600" v-if="!showGreek">
-          A homemade recipe for Sky
+          A homemade recipe for my soulmate dog
         </p>
         <p class="text-sm text-gray-600" v-else>Σπιτικό φαγητό για τη Σκάι</p>
       </div>
@@ -18,10 +18,10 @@
         @keydown.space.prevent="toggleLanguage"
         class="ml-4 px-3 py-2 border rounded cursor-pointer text-sm hover:bg-gray-100 select-none"
         :aria-pressed="showGreek"
-        :aria-label="showGreek ? 'View in English' : 'Δείτε στα Ελληνικά'"
+        :aria-label="showGreek ? 'EN' : 'GR'"
       >
-        <span v-if="!showGreek">Δείτε στα Ελληνικά</span>
-        <span v-else>View in English</span>
+        <span v-if="!showGreek">GR</span>
+        <span v-else>EN</span>
       </div>
     </header>
 
