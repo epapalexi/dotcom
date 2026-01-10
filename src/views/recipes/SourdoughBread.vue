@@ -36,7 +36,7 @@
             ? 'Υλικά για ψωμί με προζύμι'
             : 'Ingredients for sourdough bread'
         "
-        class="w-full object-cover rounded max-h-[40vh]"
+        class="w-full object-contain rounded max-h-[60vh]"
       />
       <figcaption class="text-xs text-gray-500">
         {{ showGreek ? "Υλικά" : "Ingredients" }}
@@ -558,7 +558,7 @@
 
 <script setup>
 import { ref, computed, onUnmounted } from "vue";
-import ingredientsImg from "../../assets/paintings/clove.jpeg";
+import ingredientsImg from "../../assets/paintings/SourdoughBread.jpg";
 
 const showGreek = ref(false);
 const toggleLanguage = () => {

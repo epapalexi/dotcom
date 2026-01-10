@@ -33,7 +33,7 @@
             ? 'Υλικά για το φαγητό της Σκάι'
             : 'Ingredients for Sky\'s food laid out'
         "
-        class="w-full object-cover rounded max-h-[40vh]"
+        class="w-full object-contain rounded max-h-[60vh]"
       />
       <figcaption class="text-xs text-gray-500">
         {{ showGreek ? "Υλικά" : "Ingredients" }}
@@ -113,7 +113,7 @@
 
 <script setup>
 import { ref } from "vue";
-import ingredientsImg from "../../assets/paintings/clove.jpeg";
+import ingredientsImg from "../../assets/paintings/commission.png";
 import finishedImg from "../../assets/paintings/bunnychow.jpeg";
 
 const showGreek = ref(false);
